@@ -1,16 +1,12 @@
-# desafio
+App em Flutter
 
-A new Flutter project.
+Aplicativo desenvolvido em Flutter com as mesmas funcionalidades da API 'DesafioAPI'.
 
-## Getting Started
+Para executar é necessário:
+* Ter a versão 3.19.6 do flutter instalada e configurada. Você pode realizar o download aqui: [https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_3.19.6-stable.zip]
+* Ter o Android Studio instalado e configurado. Você pode realizar o download aqui: [https://redirector.gvt1.com/edgedl/android/studio/install/2023.3.1.18/android-studio-2023.3.1.18-windows.exe]
+* Ter a API em execução. Você pode clonar o repositório aqui: [https://github.com/omatheusgs/DesafioAPI]
 
-This project is a starting point for a Flutter application.
+Para logar no aplicativo bastar informar o usuário e senha como 'admin' que será feito uma requisição para a Api realizando a autenticação do token.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Todos os dados são persistidos e consumidos em memória (cache) da API.
